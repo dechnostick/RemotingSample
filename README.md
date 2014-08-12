@@ -14,7 +14,7 @@ Server で呼び出したいメソッドのインターフェース
 
 **WindowsService**  
 サービス  
-InstallUtil.exe を使って登録する。  
+InstallUtil.exe を使って登録する(管理者権限)。  
 インストール時に聞かれるアカウントは「コンピュータ名\アカウント」を入力する。  
 (C:\Windows\Microsoft.NET\Framework\v4.0.30319)  
 サービスから GUI を扱いたい場合は[ここ](http://stackoverflow.com/questions/3798612/service-starting-a-process-wont-show-gui-c-sharp)を参考にする。  
